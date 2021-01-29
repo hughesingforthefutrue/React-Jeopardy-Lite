@@ -11,6 +11,7 @@ function App() {
     <div className="App">
       <Nav />
       <Switch>
+        <Route exact path="/" component={Welcome} />
         <Route path="/welcome/:name" component={Welcome} />
         <Route path="/clock" component={Clock} />
         <Route path="/contact" component={Contact} />
