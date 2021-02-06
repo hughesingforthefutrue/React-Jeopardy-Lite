@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import JeopardyService from "../JeopardyService/JeopardyService";
 import Display from "../display/display";
+
 class Jeopardy extends Component {
   //set our initial state and set up our service as this.client on this component
   constructor(props) {
